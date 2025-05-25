@@ -8,8 +8,8 @@ import { mimetype } from './mime-type.validator';
 
 @Component({
   selector: 'app-post-create',
-  templateUrl: './post-create.component.html',
-  styleUrls: ['./post-create.component.css']
+  templateUrl: './post.create.component.html',
+  styleUrls: ['./post.create.component.css']
 })
 export class PostCreateComponent implements OnInit {
   post: Post = { id: null, title: '', content: '', imagePath: '' };

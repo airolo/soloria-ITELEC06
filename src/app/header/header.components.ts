@@ -6,8 +6,8 @@ import { AuthService } from 'src/app/authentication/auth.service';
 
 @Component({
   selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  templateUrl: './header.components.html',
+  styleUrls: ['./header.components.css']
 })
 export class HeaderComponent implements OnInit, OnDestroy {
   userIsAuthenticated = false;
