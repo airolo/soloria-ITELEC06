@@ -6,9 +6,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 
-import { PostCreateComponent } from './posts/post-create/post-create.component';
-import { PostListComponent } from './posts/post-list/post-list.component';
-import { HeaderComponent } from './header/header.component';
+import { PostCreateComponent } from './posts/post-create/post.create.components';
+import { PostListComponent } from './posts/post-list/post-list.components';
+import { HeaderComponent } from './header/header.components';
 import { PostsService } from './posts/posts.service';
 
 import { MatInputModule } from '@angular/material/input';
