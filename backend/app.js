@@ -7,7 +7,7 @@ const Post = require("./models/post");
 const path = require("path");
 const  userRoutes = require("./routes/user"); 
 
-mongoose.connect('mongodb+srv://kyle:123@post.i2qrs.mongodb.net/?retryWrites=true&w=majority&appName=Post')
+mongoose.connect('mongodb+srv://dbBrad:dbBrad@brad.epyynxv.mongodb.net/?retryWrites=true&w=majority&appName=Brad')
 .then(() => {
     console.log('Connected to database!');
 }).catch(() => {
